@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>market </title>
+</head>
+
+<body>
+    <div class="dashbord">
+        <div class="sidebar">
+
+            <div class="company-logo">
+                <img src="/images/dashbord-logo.svg" alt="/dashbord-logo">
+            </div>
+
+            <div class="main-sidebar">
+                <ul class="side">
+                    <li class="sidebar-link"><a href="/dashbord.html"><span class="img-link"><img
+                                    src="/images/ic-dashboard-default.svg" alt=""></span><span
+                                class="link-name">Dashboard</span>
+                        
+                        </a></li>
+                    <li class="sidebar-link"><a href="#" class="active"><span class="active-img-link"><img
+                                    src="/images/ic-market-active.svg" alt="" srcset=""></span><span
+                                class="img-link"><img src="/images/ic-market-default.svg" alt=""></span><span
+                                class="link-name">Market</span><div class="up-box"></div>
+                                <div class=" up-box up-box-c1 "></div>
+                                <div class="up-box up-box-c2"></div></a></li>
+                    <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-users-default.svg"
+                                    alt=""></span><span class="link-name">Users</span></a></li>
+                    <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-docs-default.svg"
+                                    alt=""></span><span class="link-name">Docs</span></a></li>
+                    <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-help-default.svg"
+                                    alt=""></span><span class="link-name">Offer</span></a></li>
+                    <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-help-default.svg"
+                                    alt="/im"></span><span class="link-name">Help</span></a></li>
+                    <li class="sidebar-link"><a href="#"><span class="img-link"><img
+                                    src="/images/ic-setting-default.svg" alt=""></span><span
+                                class="link-name">Setting</span></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="overlay"></div>
+        <div class="main-content">
+            <div class="header">
+                <div class="header-right">
+
+                    <button class="btn-menu toggle-sidebar" type="button"><img src="images/toggle-btn.svg"
+                            alt="sidebar menu"></button>
+                    <div class="search-bar">
+                        <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+
+                </div>
+
+                <div class="header-left">
+
+                    <div class="dropdown notification-btn">
+                        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                            <img src="./images/notification.svg" class="notification">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </div>
+                    <div class="dropdown">
+                        <button class=" dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+                            <img src="./images/profile.png">
+                            <span>John Doe</span>
+                            <img src="./images/drop-down.svg" class="ic-down">
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">My Profile</a></li>
+                            <li><a class="dropdown-item" href="#">Help</a></li>
+                            <li><a class="dropdown-item" href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="dashbord-container">
+                <h1 class="main-title">Market</h1>
+                <div class="form-container">
+
+
+                    <div class="container-3">
+                        <div class="login-input">
+                            <div class="one-col  ">
+                                <h2>One Column</h2>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control mb-4" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Full name</label>
+                                </div>
+                                <select class="form-select mb-4" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                                <div class="form-floating">
+                                    <input type="text" class="form-control mb-4" id="floatingInput"
+                                        placeholder="name@example.com">
+                                    <label for="floatingInput">Description</label>
+                                </div>
+                            </div>
+                            <div class="two-col">
+                                <h2>Two Column</h2>
+                                <div class="container-fluid">
+                                    <div class="row  row-cols-1  row-cols-md-2  ">
+                                        <div class="col">
+
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="John Doe">
+                                                <label for="floatingInput">Full Name</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="@johndoe" disabled>
+                                                <label for="floatingInput">Disabled</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-floating">
+                                                <input type="password" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com">
+                                                <label for="floatingInput">Focus</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-floating">
+                                                <input type="password" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="12345">
+                                                <label for="floatingInput">Password</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="three-col mb-5">
+                            <h2>Three Column</h2>
+                            <div class="container-fluid">
+                                <div class="row   row-cols-1 row-cols-md-3">
+                                    <div class="col">
+                                        <div class="col-md mb-3">
+                                            <div class="form-floating is-invalid">
+                                              <input type="text" class="form-control  is-invalid " id="redLabel" value="John">
+                                                <label for="redLabel" class="redlabel text-danger">Error</label>
+                                              </div>
+                                              <div class="invalid-feedback">
+                                                Please Enter your Full Name
+                                              </div>
+                                            </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class=" col-md">
+                                            <div class="form-floating mb-3">
+                                              <select class="form-select " name="Designation"  id="form-2"  disabled>
+                                                <option selected> Country </option>
+                                                <option value="1">One</option>
+                                                <option value="2">Two</option>
+                                                <option value="3">Three</option>
+                                              </select>
+                                              <!-- <label for="form-2">Designation</label> -->
+                                              <div class="below-select">
+                                                Choose your Country
+                                              </div>
+                                            </div>
+                                          </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="form-floating">
+                                            <input type="text" class="form-control mb-4" id="floatingInput"
+                                                placeholder="name@example.com" value="Placeholder" disabled>
+                                            <label for="floatingInput">Label</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="four-col mb-4">
+                            <div class="two-col">
+                                <h2>Four Column</h2>
+                                <div class="container-fluid">
+                                    <div class="row   row-cols-1 row-cols-md-2 row-cols-lg-4">
+                                        <div class="col ">
+
+                                            <div class="form-floating">
+                                                <input type="text" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="John Doe">
+                                                <label for="floatingInput">First Name</label>
+
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-floating ">
+                                                <input type="text" class="form-control  mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="@johndoe" disabled>
+                                                <label for="floatingInput">Disabled</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-floating">
+                                                <input type="password" class="form-control mb-4" id="floatingInput"
+                                                    placeholder="name@example.com" value="12345">
+                                                <label for="floatingInput">Password</label>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="has-validation">
+                                                <div class="form-floating ">
+                                                    <input type="text" class="form-control  mb-4" id="floatingInput"
+                                                        placeholder="name@example.com" value="@johndoe" disabled>
+                                                    <label for="floatingInput">Disabled</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="five-col mb-5">
+                            <h2 class="mb-4">Other form elements</h2>
+                            <h3 class="mb-3">File Upload</h3>
+                            <div class="file-upload  input-group mb-4">
+                                <div class="file-content">
+                                    <button class="btn btn-outline-primary" type="file" id="button-addon1"><img
+                                            src="./images/uplod-icon.svg">upload</button>
+                                    <span class="text-secondary">No item selected</span>
+                                </div>
+                                <input class="form-control" placeholder="" type="file"
+                                    aria-label="Example text with button addon" aria-describedby="button-addon1">
+                            </div>
+                            <h3 class="mb-3">Checkbox</h3>
+                            <div class="form-check form-check-inline mb-4">
+                                <input class="form-check-input custom-checkbox" type="checkbox" value="option1"
+                                    id="option1" checked>
+                                <label class="form-check-label text-secondary" for="option1">Option 1</label>
+                            </div>
+                            <div class="form-check form-check-inline mb-4">
+                                <input class="form-check-input custom-checkbox" type="checkbox" value="option2"
+                                    id="option2">
+                                <label class="form-check-label text-secondary" for="option2">Option 2
+                                </label>
+                            </div>
+                            <h3 class="mb-3">Radio Button</h3>
+                            <div class="form-check form-check-inline mb-4">
+                                <input class="form-check-input" type="radio" value="option1" name="flexRadioDefault"
+                                    id="Radio1" checked>
+                                <label class="form-check-label text-secondary" for="Radio1">Option 1
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" value="option2"
+                                    id="Radio2">
+                                <label class="form-check-labe text-secondary" for="Radio2">Option 2
+                                </label>
+                            </div>
+                            <h3 class="form-title mb-3 ">Call to action</h3>
+                            <div class="button-list mb-4">
+                                <button class="btn btn-primary text-white mb-2">Primary</button>
+                                <button type="button" class="btn btn-outline-primary text-primary mb-2">secondary</button>
+                                <button type="button" class="btn btn-secondary mb-2" disabled>Disabled</button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="container-4">
+                        <h2>Tabs</h2>
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="tab-item" role="presentation">
+                                <button class="tab-link active" data-bs-toggle="tab" data-bs-target="#tab-1"
+                                    type="button" role="tab" aria-controls="home" aria-selected="true">Tab1</button>
+                            </li>
+                            <li class="tab-item" role="presentation">
+                                <button class="tab-link" data-bs-toggle="tab" data-bs-target="#tab-2" type="button"
+                                    role="tab" aria-controls="profile" aria-selected="false">Tab2</button>
+                            </li>
+                            <li class="tab-item" role="presentation">
+                                <button class="tab-link" data-bs-toggle="tab" data-bs-target="#tab-3" type="button"
+                                    role="tab" aria-controls="contact" aria-selected="false">Tab3</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="tab-1" role="tabpanel">
+                                It is a long established fact that a reader will be distracted by the readable content
+                                of a
+                                page
+                                when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less
+                                normal
+                                distribution of letters, as opposed to using 'Content here, content here', making it
+                                look
+                                like
+                                readable English.It is a long established fact that a reader will be distracted by the
+                                readable
+                                content of a page when looking at its layout.
+                            </div>
+                            <div class="tab-pane fade" id="tab-2" role="tabpanel">It
+                                second, It is a long established fact that a reader will be distracted by the readable
+                                content
+                                of a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less normal distribution of letters, as opposed to using 'Content here, content
+                                here',
+                                making it look like readable English.It is a long established fact that a reader will be
+                                distracted by the readable content of a page when looking at its layout.
+                            </div>
+                            <div class="tab-pane fade" id="tab-3" role="tabpanel">
+                                third, It is a long established fact that a reader will be distracted by the readable
+                                content of
+                                a page when looking at its layout. The point of using Lorem Ipsum is that it has a
+                                more-or-less
+                                normal distribution of letters, as opposed to using 'Content here, content here', making
+                                it
+                                look
+                                like readable English.It is a long established fact that a reader will be distracted by
+                                the
+                                readable content of a page when looking at its layout.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

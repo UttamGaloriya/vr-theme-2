@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Dashbord</title>
+</head>
+<body>
+<div class="dashbord">
+    <div class="sidebar">
+
+        <div class="company-logo">
+            <img src="/images/dashbord-logo.svg" alt="/dashbord-logo">
+        </div>
+
+    <div class="main-sidebar">
+        <ul class="side">
+            <li class="sidebar-link"><a href="#" class="active"><span class="active-img-link"><img src="/images/ic-dashboard-active.svg" alt="" srcset=""></span><span class="img-link"><img src="/images/ic-dashboard-default.svg" alt=""></span><span class="link-name">Dashboard</span>
+                <div class="up-box"></div>
+                <div class=" up-box up-box-c1 "></div>
+                <div class="up-box up-box-c2"></div>
+            </a></li>
+            <li class="sidebar-link"><a href="/innerpage.html"><span class="img-link"><img src="/images/ic-market-default.svg" alt=""></span><span class="link-name">Market</span></a></li>
+            <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-users-default.svg" alt=""></span><span class="link-name">Users</span></a></li>
+            <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-docs-default.svg" alt=""></span><span class="link-name">Docs</span></a></li>
+            <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-help-default.svg" alt=""></span><span class="link-name">Offer</span></a></li>
+            <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-help-default.svg" alt="/im"></span><span class="link-name">Help</span></a></li>
+            <li class="sidebar-link"><a href="#"><span class="img-link"><img src="/images/ic-setting-default.svg" alt=""></span><span class="link-name">Setting</span></a></li>
+        </ul>
+    </div>
+    </div>
+  <div class="overlay"></div>
+    <div class="main-content">
+        <div class="header">
+            <div class="header-right">
+
+                <button class="btn-menu toggle-sidebar" type="button"><img src="images/toggle-btn.svg" alt="sidebar menu"></button>
+                <div class="search-bar">
+                    <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                </div>
+
+            </div>
+          
+<div class="header-left">
+
+    <div class="dropdown notification-btn">
+        <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            <img src="./images/notification.svg" class="notification">
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div> 
+    <div class="dropdown">
+        <button class=" dropdown-toggle profile" type="button" data-bs-toggle="dropdown">
+            <img src="./images/profile.png">
+            <span>John Doe</span>
+            <img src="./images/drop-down.svg" class="ic-down">
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">My Profile</a></li>
+            <li><a class="dropdown-item" href="#">Help</a></li>
+            <li><a class="dropdown-item" href="login.html">Logout</a></li>
+        </ul>
+    </div> 
+
+</div>
+              
+        </div>
+        <div class="dashbord-container">
+            <h1>Dashboard</h1>
+            <div class="info-box">
+                <div class="info d-flex justify-content-between">
+                    <div class="left-info">
+                        <p class="title-info">Order</p>
+                        <p class="currency">1,343K</p>
+                        <span class="profit-loss text-primary">+ 120</span>
+                        <span class="status-present">From last Week</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/ico-order.svg" alt="wallet"></div>
+                </div>
+                <div class="info d-flex justify-content-between info-2">
+                    <div class="left-info">
+                        <p class="title-info">Total Product</p>
+                        <p class="currency"> 12.57%</p>
+                        <span class="profit-loss text-primary">+ 80</span>
+                        <span class="status-present">New Products</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/ico-total.svg" alt="wallet"></div>
+                </div>
+                <div class="info d-flex justify-content-between">
+                    <div class="left-info">
+                        <p class="title-info">Unique Visitor</p>
+                        <p class="currency"> 15,789</p>
+                        <span class="profit-loss text-danger">-640</span>
+                        <span class="status-present">From last Week</span>
+                    </div>
+                    <div class="info-icon"><img src="/images/ico-visitor.svg" alt="wallet"></div>
+                </div>
+            </div>
+            <div class="row">
+         <div class="col-xl-6 mb-3">
+                    <div class="sales-graph">
+                        <div class="sales-title">
+                            <h2>Total Sale</h2>
+                        </div>
+                        <img src="images/graph-img.svg" alt="sales" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-xl-3 mb-3">
+                    <div class="pi-chart-box"> 
+
+                        <div class="sales-title pi-p">
+                            <h2>Top Seller</h2>                
+                            <div class="legend">
+                                <button class="btn" type="button">Show More</button>
+                               
+                             </div>
+                       </div>
+                        <div class="img-chart"><img src="/images/pie-chart.svg" alt="" srcset=""></div>
+                       <div class="list-chart-data ">
+                        <div class="list-data-name"> <img src="/images/list-1.svg" alt="list-img" class="list-img">Category 1</div>
+                        <div class="list-data">70% </div>    
+                       </div>
+                       <div class="list-chart-data">
+                        <div class="list-data-name"><img src="/images/list-2.svg" alt="list-img" class="list-img">Category 1</div>
+                        <div class="list-data">70% </div>    
+                       </div>
+                </div>
+                </div>
+                <div class="col-xl-3 ">
+                    <div class="pi-chart-box">                                                                  
+                        <div class="sales-title pi-p">
+                            <h2>Sales Report</h2>
+                            <div class="legend">
+                                <button class="btn" type="button">Show More</button>
+                            </div>
+                        </div>
+                        <div class="img-chart"><img src="/images/cycle.svg" alt="" srcset=""></div>
+                        <div class="list-chart-data">
+                            <div class="list-data-name"><img src="/images/list-1.svg" alt="list-img" class="list-img">  Category 1</div>
+                            <div class="list-data">70% </div>    
+                           </div>
+                           <div class="list-chart-data">
+                            <div class="list-data-name"><img src="/images/list-2.svg" alt="list-img" class="list-img">Category 1</div>
+                            <div class="list-data">70% </div>    
+                           </div>
+                           <div class="list-chart-data">
+                            <div class="list-data-name"><img src="/images/list-3.svg" alt="list-img" class="list-img">Category 1</div>
+                            <div class="list-data">70% </div>    
+                           </div>
+                    </div>
+                </div>
+            </div>
+            <!-- /******************************/ -->
+            <div class="table-responsive db-table">  
+                <table class="table">
+                    <thead>
+                        <th>Employee Name</th>
+                        <th>Email ID</th>
+                        <th>Phone no</th>
+                        <th>Joining Date</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Darrell Steward</td>
+                            <td>alma.lawson@example.com</td>
+                            <td>(629) 555-0129</td>
+                            <td>August 7, 2017</td>
+                            <td class="text-primary">Active</td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                        <tr>
+                            <td>Annette Black</td>
+                            <td>michelle.rivera@example.com</td>
+                            <td>(704) 555-0127</td>
+                            <td>March 13, 2014</td>
+                            <td class="text-primary">Active</td>
+                            <td>
+                                <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                    <img src="../images/link-dots.svg" class="notification">
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                    <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                                   
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Jenny Wilson</td>
+                            <td>georgia.young@example.com</td>
+                            <td>(270) 555-0117</td>
+                            <td>May 6, 2012</td>
+                            <td class="text-primary">Active</td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                        <tr>
+                            <td>Kathryn Murphy</td>
+                            <td>dolores.chambers@example.com</td>
+                            <td>(207) 555-0119</td>
+                            <td>November 16, 2014</td>
+                            <td class="text-danger">Disable </td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                        <tr>
+                            <td>Arlene McCoy</td>
+                            <td>michael.mitc@example.com</td>
+                            <td>(405) 555-0128</td>
+                            <td>October 24, 2018</td>
+                            <td class="text-primary">Active</td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                        <tr>
+                            <td>Arlene McCoy</td>
+                            <td>michael.mitc@example.com</td>
+                            <td>(405) 555-0128</td>
+                            <td>October 24, 2018</td>
+                            <td class="text-primary">Active</td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                        <tr>
+                            <td>Eleanor Pena</td>
+                            <td>bill.sanders@example.com</td>
+                            <td>(219) 555-0114</td>
+                            <td>May 9, 2014</td>
+                            <td class="text-primary">Active</td>
+                            <td>  <button class=" dropdown-toggle" type="button" data-bs-toggle="dropdown">
+                                <img src="../images/link-dots.svg" class="notification">
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item bg-primary  text-white" href="#">Update</a></li>
+                                <li><a class="dropdown-item bg-danger text-white" href="#">Delete</a></li>
+                               
+                            </ul></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>
